@@ -4,7 +4,8 @@ Webcam.set({
     width: 494,
     height: 500,
     image_format:'jpeg',
-    jpeg_quality:90
+    jpeg_quality:90,
+    flip_horiz: true
 })
 
 Webcam.attach('#camera')

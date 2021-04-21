@@ -68,14 +68,6 @@
     border-radius: 5%;
 }
 
-/* Ensure the size of the image fit the container perfectly */
-.croppie img {
-    display: block;
-  
-    /* This rule is very important, please don't ignore this */
-    max-width: 100%;
-}
-
 .aviso{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
