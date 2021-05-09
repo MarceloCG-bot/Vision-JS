@@ -6,31 +6,31 @@ function App() {
   return (
     <div className="App">
       <header className="nav justify-content-center">
-        <h1 className="my-4 fw-bold text-white">Captura de Imagem</h1>
+        <h1 className="my-3 fw-bold text-white">Captura de Imagem</h1>
       </header>
 
       <section className="container-fluid">
         <div className="row my-4">
-          <div className="box col-md mx-4 justify-content-between">
+          <div className="box card col-md mx-4 justify-content-between shadow-sm">
+            <h2 className="card-title fs-4 text-primary-2 text-center mb-3">Exibição</h2>
             <WebcamComponent />
-            <div className="d-flex justify-content-center">
-              <button onclick="takeSnapshot()" class="btn btn-primary">
+            <div className="card-body d-flex align-items-end justify-content-center mt-4">
+              <button onclick="takeSnapshot()" className="btn btn-primary shadow">
                 Capturar imagem
             </button>
             </div>
           </div>
 
-          <div className="box col-md">
-            <div className="results" />
+          <div className="box card col-md shadow-sm">
+            <h2 className="card-title fs-4 text-primary-2 text-center mb-3">Imagens Capturadas</h2>
+            <div className="card-body results" />
           </div>
 
-          <div className="box col-md mx-4 justify-content-end">
-            <div id="uploadedImage" />
-            <img id="croppedImage" alt="cropping result" />
-            <div className="d-flex justify-content-center">
-              <button class="btn btn-warning" id="cropButton">
-                Salvar seleção
-            </button>
+          <div className="box card col-md mx-4 justify-content-between shadow-sm">
+            <h2 className="card-title fs-4 text-primary-2 text-center mb-3">Rotulação</h2>
+            <img className="printscreen" alt="Printscreen da câmera de vídeo" src="" />
+            <div className="card-body d-flex align-items-end justify-content-center mt-4">
+                <input className="btn btn-warning shadow" type="submit" value="Salvar seleção" />
             </div>
           </div>
         </div>
