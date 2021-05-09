@@ -14,9 +14,6 @@ function App() {
           <div id="camera" />
           <div class="botao">
             <WebcamComponent />
-            <button onclick="takeSnapshot()" class="btn btn-primary">
-              CAPTURE IMAGE
-            </button>
           </div>
         </div>
         <div class="divisao-capturados">
