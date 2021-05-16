@@ -29,8 +29,8 @@ class App extends React.Component {
         </header>
 
         <section className="container-fluid">
-          <div className="row my-4">
-            <div className="box card col-md mx-4 justify-content-between shadow-sm">
+          <div className="row my-4 gap-4 d-flex justify-content-center">
+            <div className="box card col-lg-4 justify-content-between shadow-sm">
               <h2 className="card-title fs-4 text-primary-2 text-center mb-3">
                 Exibição
               </h2>
@@ -41,7 +41,7 @@ class App extends React.Component {
               <div className="p-1 d-flex align-items-end justify-content-center mt-4" />
             </div>
 
-            <div className="box card col-md shadow-sm">
+            <div className="box card col-lg-3 shadow-sm">
               <h2 className="card-title fs-4 text-primary-2 text-center mb-3">
                 Imagens Capturadas
               </h2>
@@ -52,7 +52,7 @@ class App extends React.Component {
               </div>
             </div>
 
-            <div className="box card col-md mx-4 justify-content-between shadow-sm">
+            <div className="box card col-lg-4 justify-content-between shadow-sm">
               <h2 className="card-title fs-4 text-primary-2 text-center mb-3">
                 Rotulação
               </h2>
