@@ -5,7 +5,7 @@ const ScreenshotList = (props) => {
     props.images &&
     props.images.map(function(img, i) {
       return (
-        <img key={i} style={{ margin: "1rem" }} alt="screenshot" src={img} />
+        <img key={i} alt="screenshot" src={img} />
       );
     })
   );
