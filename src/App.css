@@ -2,23 +2,23 @@
   --blue: cornflowerblue;
 }
 
-h1{
+h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h2{
+h2 {
   color: var(--blue);
 }
 
-.nav{
-  background-color: var(--blue); 
+.nav {
+  background-color: var(--blue);
 }
 
 .box {
   display: flex;
   flex-direction: column;
-  justify-content:flex-start;
-  background-color:rgb(255, 255, 255);
+  justify-content: flex-start;
+  background-color: rgb(255, 255, 255);
   border: 3px solid var(--blue);
   border-radius: 5%;
   height: auto;
@@ -27,4 +27,14 @@ h2{
 
 input {
   height: 2.6rem;
+}
+
+img {
+  margin: 1%;
+  width: 30%;
+  height: 30%;
+}
+
+.results {
+  height: 60vh;
 }
